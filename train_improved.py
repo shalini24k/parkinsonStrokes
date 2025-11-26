@@ -81,4 +81,4 @@ def train_routine(train_dir, save_name):
 
 if __name__ == "__main__":
     train_routine("./dataset_strokes/train", "model_strokes_improved.pth")
-    train_routine("./dataset_words/dataset-word/train", "model_words_improved.pth")
+    train_routine("./dataset_words/dataset-word/Train", "model_words_improved.pth")
