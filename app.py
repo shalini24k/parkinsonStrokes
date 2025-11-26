@@ -89,7 +89,7 @@ if dataset_choice == "Geometric Strokes":
     imp_path = "model_strokes_improved.pth"
     warning_text = "⚠️ Mode: **Strokes**. Please upload Spiral/Wave images."
 else:
-    test_folder = "./dataset_words/dataset-word/test"
+    test_folder = "./dataset_words/dataset-word/Test"
     norm_path = "model_words_normal.pth"
     imp_path = "model_words_improved.pth"
     warning_text = "⚠️ Mode: **Words**. Please upload Handwriting images."
